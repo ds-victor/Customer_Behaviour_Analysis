@@ -17,6 +17,7 @@ Retail businesses generate large volumes of customer transaction data. However, 
 
 This project uses **MySQL** to load, clean, transform, and analyze the transactional dataset, enabling data-driven decisions that support marketing, retention, and business strategy.
 
+## 📁 Project Structure
 ```
 Customer_Behaviour_Analysis/
 │
@@ -33,5 +34,57 @@ Customer_Behaviour_Analysis/
 └── README.md
 ```
 
-## 📁 Project Structure
+## 🧠 Tools & Technologies
+
+✔ MySQL (local database)  
+✔ SQL Analytics  
+✔ Window functions (NTILE, SUM OVER)  
+✔ Stored Procedures & Views  
+✔ Command-line and Workbench workflows
+
+
+## 🧰 Data Loading
+
+1. Create a staging table to prevent import errors due to text issues, quotes, and encoding differences.
+2. Load the raw CSV into the staging table.
+3. Clean and cast fields into the analytical `transactions` table with proper types.
+4. Create a clean view (`clean_transactions`) to apply business filters for analysis.
+
+
+## 🧾 What You Will Find
+
+### Advanced SQL Queries  
+- Customer lifetime value (revenue)
+- Purchase frequency
+- RFM (Recency, Frequency, Monetary) analysis
+- Top customers by revenue
+- Inactive customer detection
+- Country-level revenue distribution
+
+### Stored Procedures  
+- `customer_summary`
+- `high_value_customers`
+- `inactive_customers`
+
+
+## 🚀 How to Use
+
+1. Clone the repository.
+2. Import the dataset into your local MySQL database using the provided SQL scripts.
+3. Run the SQL scripts in order:
+   - `01_schema.sql`
+   - `02_data_import.sql`
+   - `03_advanced_queries.sql`
+   - `04_stored_procedures.sql`
+4. Explore insights using custom queries or by executing stored procedures.
+
+
+## 📌 Benefits of This Project
+
+✔ Demonstrates advanced SQL skills  
+✔ Shows understanding of data cleaning and transformation  
+✔ Uses window functions and stored procedures  
+✔ Projects real business insights from raw transaction data  
+✔ Perfect for SQL / Data Analyst portfolios
+
 
