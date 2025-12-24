@@ -77,14 +77,3 @@ Customer_Behaviour_Analysis/
    - `03_advanced_queries.sql`
    - `04_stored_procedures.sql`
 4. Explore insights using custom queries or by executing stored procedures.
-
-
-## 📌 Benefits of This Project
-
-✔ Demonstrates advanced SQL skills  
-✔ Shows understanding of data cleaning and transformation  
-✔ Uses window functions and stored procedures  
-✔ Projects real business insights from raw transaction data  
-✔ Perfect for SQL / Data Analyst portfolios
-
-
